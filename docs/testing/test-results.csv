@@ -1,0 +1,2 @@
+test_id,feature_id,metric,unit,trials,mean,min,max,target,result,lab_date,notes
+TEST-01,F01,telemetry_latency,ms,,,,,,pending,,

@@ -1,0 +1,54 @@
+# Local credentials - NEVER COMMIT
+.env
+.env.*
+!.env.example
+config.h
+config.local.h
+secrets.h
+secrets.*
+!*.example.h
+*.pem
+*.key
+*.p12
+credentials.json
+
+# ESP-IDF / PlatformIO / Arduino artifacts
+.pio/
+build/
+dist/
+*.bin
+*.elf
+*.map
+*.o
+*.obj
+sdkconfig.old
+
+# Python / OS / editors
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# LaTeX intermediate files (keep final PDF separately if needed)
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.lof
+*.lot
+
+# Large/raw data - keep lightweight evidence, use Drive for huge video files
+*.mp4
+*.mov
+*.avi
